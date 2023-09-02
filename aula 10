@@ -1,0 +1,54 @@
+/*
+function imprimirOlaMundo(){
+    console.log("Olá Mundon");
+
+}
+imprimirOlaMundo();
+
+function calculaArea(altura,largura){//parametros
+    const area = altura * largura // parametros snedo utilizados
+    console.log(area);
+}
+//declarar "valores do parametro" smepre depois das chaves.
+calculaArea(2,3);//valores do paramentro, smepre depois de declarar o parametro, ou seja argumentos do parametro.*/
+
+/* exercicio
+function seuNome(nome){
+    console.log("Olá" +nome);
+}
+seuNome("Manuela");
+seuNome("helena");
+let lerNome = prompt("Qual seu nome?");
+seuNome(lerNome);*/
+
+/*Escopo - GLOBAL: podem ser usadas em qualquer lugar do código;
+LOCAL: só podem ser acessadas dentro do escopo em que foram declaradas;
+const a = 1;
+function imprimeVariavel(){
+    const b = 2
+    console.log("Variável a", a)
+    console.log("Variável b", b)
+}
+imprimeVariavel();
+console.log("Variavel a", a);*/
+ 
+/*Como usar o resultado da função sem usar console.log(): return.
+Cada função só pode ter um return
+Cada return só pode ter um valor.
+function calculaArea(altura, largura){
+const area = altura * largura
+return area;
+}
+const areaCalculada = calculaArea(2, 3);
+console.log(calculaArea(2, 3));*/
+
+//exercicio 
+/*function doiNumeros(numero1, numero2){
+    const soma = numero1 + numero2
+    return soma;
+}
+doiNumeros(5, 9);
+console.log(doiNumeros(5,9));*/
+/* entrada e saída de dados: 
+Entrada = input 
+saída = output*/
